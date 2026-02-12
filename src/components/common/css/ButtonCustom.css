@@ -1,0 +1,46 @@
+/* button start */
+
+.btn-custom{
+  background-color: #288989;
+  color: #fff;
+  font-weight: 500;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.2s linear;
+  width: 160px;
+}
+
+.btn-custom:hover .arrow{
+  rotate: 0deg;
+}
+
+.arrow{
+  transition: all 0.2s linear;
+  height: 40px;
+  width: 40px;
+  rotate: -50deg;
+}
+
+.text-2{
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  transition: all 0.2s linear;
+}
+.text-1{
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  transition: all 0.2s linear;
+}
+
+.btn-custom:hover .text-2{
+  transform: translateY(-35px);
+}
+
+.btn-custom:hover .text-1{
+  transform: translateY(-38px);
+}
+
+/* button end */

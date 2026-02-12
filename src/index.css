@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "lausanne";
+  src: url("/font/Lausanne-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  color: #333 !important;
+}
+
+.bg-custom-main{
+  background-color: #EBEFEF;
+}
+
+.bg-custom-hero{
+  background-color: #D7E4E4;
+}
+
+.text-custom{
+  color: #111 !important;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.2s linear;
+}
+.text-custom:hover{
+  color: #777 !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/* text styles start */
+
+.spacing-tight {
+  letter-spacing: -0.05em;
+}
+
+.spacing-normal {
+  letter-spacing: normal; 
+}
+
+.spacing-wide {
+  letter-spacing: 0.05em;
+}
+
+.spacing-wider {
+  letter-spacing: 0.1rem;
+}
+
+/* text styles end */
+
