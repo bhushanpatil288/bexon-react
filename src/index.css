@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
   font-family: "lausanne";
   src: url("/font/Lausanne-500.woff2") format("woff2");
@@ -5,7 +6,6 @@
   font-style: normal;
   font-display: swap;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
   font-family: "Roboto", sans-serif;
@@ -20,6 +20,14 @@ body{
   background-color: #D7E4E4;
 }
 
+.bg-custom-gray{
+  background-color: #278888;
+}
+
+.border-bottom-gray{
+  border-bottom: 1px solid #27888853 !important;
+}
+
 .text-custom{
   color: #111 !important;
   font-weight: 600;
@@ -29,6 +37,21 @@ body{
 .text-custom:hover{
   color: #777 !important;
 }
+
+.text-custom-white{
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.2s linear;
+}
+.text-custom-white:hover{
+  color: #999 !important;
+}
+
+.text-gray{
+  color: #b7b7b7;
+}
+
 
 .pointer{
   cursor: pointer;
@@ -53,4 +76,3 @@ body{
 }
 
 /* text styles end */
-

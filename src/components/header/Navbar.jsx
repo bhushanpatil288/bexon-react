@@ -3,7 +3,7 @@ import { RiArrowDownSLine } from "@remixicon/react"
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="d-none d-xl-block">
       <ul className="list-unstyled d-flex gap-4 bg-white p-2 px-4 rounded-5 mb-0">
         {navItems.map((item, idx)=>{
           return (

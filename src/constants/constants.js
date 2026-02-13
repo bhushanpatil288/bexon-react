@@ -1,4 +1,5 @@
-import logo from "/images/primary-logo.webp"
+import logoDark from "/images/primary-logo.webp"
+import logoLight from "/images/secondary-logo.webp"
 
 const navItems = [
   {
@@ -33,4 +34,4 @@ const navItems = [
   }
 ]
 
-export { logo, navItems }
+export { logoDark, logoLight, navItems }

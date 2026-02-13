@@ -1,9 +1,9 @@
-import { logo } from "../../constants/constants"
+import { logoDark,logoLight } from "../../constants/constants"
 
-const Logo = () => {
+const Logo = ({variant}) => {
   return (
-    <div className="d-flex align-items-center border logo-container">
-      <a href="#"><img src={logo} alt="bexon-logo" className="img-fluid" /></a>
+    <div className="d-flex align-items-center logo-container">
+      <a href="#"><img src={variant === "light" ? logoLight : logoDark} alt="bexon-logo" className="img-fluid" /></a>
     </div>
   )
 }

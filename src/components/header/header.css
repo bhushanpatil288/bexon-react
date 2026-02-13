@@ -4,4 +4,49 @@
   max-width: 150px;
 }
 
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.hamBurgerMenu{
+  position: fixed;
+  background-color: #142326;
+  width: 350px;
+  height: 95%;
+  top: 2%;
+  right: 2%;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px 1px black;
+  transition: all 0.2s linear;
+}
+
+.hamBurgerMenu.closed{
+  transform: translateX(120%)
+}
+
+.hamCloseBtn{
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.hamCloseBtn:hover{
+  rotate: 90deg;
+}
+
+.social-link, .social-link a{
+  transition: all 0.2s linear;
+}
+.social-link:hover{
+  transform: translateY(-5px);
+}
+.social-link:hover a{
+  color: white !important;
+}
+
+
 /* header end */

@@ -3,7 +3,7 @@ import ButtonCustom from "../common/ButtonCustom"
 
 const NavRight = () => {
   return (
-     <div className="d-flex gap-3">
+     <div className="d-flex gap-3 d-none d-xl-flex">
         <div className="bg-custom-main px-3 d-flex justify-content-center align-items-center py-1 rounded-circle pointer">
           <RiSearchLine />
         </div>
