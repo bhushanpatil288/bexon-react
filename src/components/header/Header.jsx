@@ -7,11 +7,11 @@ import { useState } from "react"
 import MenuBtn from "./MenuBtn"
 
 const Header = () => {
-  const [isOpen, setIsOpen ] = useState(true);
+  const [isOpen, setIsOpen ] = useState(false);
 
   return (
-    <header className='container-fluid bg-custom-main p-3'>
-      <div className="bg-custom-hero container-fluid rounded-3 d-flex justify-content-between py-3 align-items-center">
+    <header>
+      <div className="px-2 py-2 d-flex justify-content-between align-items-center">
         <Logo variant="dark" />
         <Navbar />
         <NavRight />
