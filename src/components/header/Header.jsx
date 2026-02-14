@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen ] = useState(false);
 
   return (
-    <header>
+    <>
       <div className="px-2 py-2 d-flex justify-content-between align-items-center">
         <Logo variant="dark" />
         <Navbar />
@@ -24,7 +24,7 @@ const Header = () => {
         <HamMenu isOpen={isOpen} setIsOpen={setIsOpen} />
 
       </div>
-    </header>
+    </>
   )
 }
 
