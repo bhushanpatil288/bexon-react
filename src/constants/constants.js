@@ -1,5 +1,6 @@
 import logoDark from "/images/primary-logo.webp"
 import logoLight from "/images/secondary-logo.webp"
+import awardRoundedText from "/images/award-rounded-text.svg"
 
 const navItems = [
   {
@@ -34,4 +35,4 @@ const navItems = [
   }
 ]
 
-export { logoDark, logoLight, navItems }
+export { logoDark, logoLight, awardRoundedText, navItems }

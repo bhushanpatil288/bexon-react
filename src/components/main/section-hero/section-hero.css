@@ -18,3 +18,47 @@
   height: 3px;
   border-radius: 10px;
 }
+
+.circle-text-wrapper{
+  position: relative;
+  height: 192px;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circle-text{
+  width: 100%;
+  width: 158px;
+  height: 163px;
+  z-index: 6;
+  animation: textrotate 20s infinite linear;
+}
+
+.circle-icon{
+  position: absolute;
+  top: 35%;
+  z-index: 6;
+}
+
+@keyframes textrotate {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* media query */
+
+@media (max-width: 992px) {
+  .hero-wrapper{
+    flex-direction: column-reverse !important;
+  }
+}
