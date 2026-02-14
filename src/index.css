@@ -12,6 +12,11 @@ body{
   color: #333 !important;
 }
 
+::selection{
+  color: white;
+  background: #111;
+}
+
 .bg-custom-main{
   background-color: #EBEFEF;
 }
