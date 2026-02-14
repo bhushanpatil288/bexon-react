@@ -1,6 +1,12 @@
+// images
 import logoDark from "/images/primary-logo.webp"
 import logoLight from "/images/secondary-logo.webp"
 import awardRoundedText from "/images/award-rounded-text.svg"
+
+// videos
+import HeroVid from "/videos/h10-banner-videio.mp4"
+
+// others
 
 const navItems = [
   {
@@ -35,4 +41,4 @@ const navItems = [
   }
 ]
 
-export { logoDark, logoLight, awardRoundedText, navItems }
+export { logoDark, logoLight, awardRoundedText, HeroVid, navItems }
