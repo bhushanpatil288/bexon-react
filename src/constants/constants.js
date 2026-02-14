@@ -1,3 +1,4 @@
+import { RiBarChartFill } from "@remixicon/react"
 // images
 import logoDark from "/images/primary-logo.webp"
 import logoLight from "/images/secondary-logo.webp"
@@ -41,4 +42,12 @@ const navItems = [
   }
 ]
 
-export { logoDark, logoLight, awardRoundedText, HeroVid, navItems }
+const ourSolutions = [
+  {
+    title: "Business Strategy Development",
+    icon: RiBarChartFill,
+    des: "Through a combination of data-driven insights and innovative approaches business."
+  }
+]
+
+export { logoDark, logoLight, awardRoundedText, HeroVid, navItems, ourSolutions }

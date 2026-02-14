@@ -1,0 +1,38 @@
+.solutions-card{
+  background-color: white;
+  transition: all 0.3s linear;
+}
+.solutions-card:hover{
+  background-color: #288A89;
+  color: white;
+}
+
+
+.solutions-card svg{
+  transition: all 0.3s linear;
+}
+.solutions-card:hover svg{
+  fill: white;
+}
+
+
+.service-icon-wrapper{
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(-45deg, rgba(30, 138, 138, 0.3) 0%, rgba(30, 138, 138, 0) 50%, rgba(30, 138, 138, 0.3) 100%);
+}
+.service-icon-wrapper{
+  transition: all 0.3s linear;
+}
+.solutions-card:hover .service-icon-wrapper{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(15px);
+}
+
+.solutions-card .btn-custom-2{
+  transform: translateX(-70%);
+  transition: all 0.4s linear;
+}
+.solutions-card:hover .btn-custom-2{
+  transform: translateX(-10%);
+}
