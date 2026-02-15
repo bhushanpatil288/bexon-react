@@ -1,4 +1,4 @@
-import ButtonCustomSecondary from "../../common/ButtonCustomSecondary"
+import ButtonCustom from "../../common/ButtonCustom"
 
 const SolutionsCard = ({index, title, icon:Icon, des}) => {
   return (
@@ -19,7 +19,7 @@ const SolutionsCard = ({index, title, icon:Icon, des}) => {
               {des}
             </p>
             <div className="mt-4">
-              <ButtonCustomSecondary text="Learn more" />
+              <ButtonCustom text="Learn more" isNoBg={true}  />
             </div>
           </div>
         </div>

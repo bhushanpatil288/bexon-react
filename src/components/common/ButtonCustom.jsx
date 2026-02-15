@@ -1,9 +1,9 @@
 import { RiArrowRightLine } from "@remixicon/react"
 import "./css/ButtonCustom.css"
 
-const ButtonCustom = ({text}) => {
+const ButtonCustom = ({text, isNoBg = false}) => {
   return (
-    <button className="overflow-hidden btn-custom d-flex gap-2 align-items-center justify-content-end">
+     <button className={`overflow-hidden btn-custom ${isNoBg ? "btn-custom-2" : ""} d-flex gap-2 align-items-center justify-content-end`}>
       <div className="btn-text-wrapper position-relative ms-3">
         <p className="text-1 fw-bold spacing-wide">{text}</p>
         <p className="text-2 fw-bold spacing-wide">{text}</p>
