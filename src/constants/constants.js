@@ -86,4 +86,4 @@ const marquee = [
 
 const clients = [ c1, c2, c3]
 
-export { logoDark, logoLight, awardRoundedText, marquee1, aboutBanner, HeroVid, navItems, ourSolutions, marquee, clients }
+export { logoDark, logoLight, awardRoundedText, aboutBanner, HeroVid, navItems, ourSolutions, marquee, clients }

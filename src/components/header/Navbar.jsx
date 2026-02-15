@@ -9,7 +9,7 @@ const Navbar = () => {
           return (
           <li key={idx}>
             <a className="text-decoration-none text-custom d-flex justify-content-center align-items-center gap-1" href={item.link}>
-              <p className="m-0">{item.name}</p>
+              <p className="m-0 fw-normal">{item.name}</p>
               {item.dropdown ? <p className="m-0"><RiArrowDownSLine size={20} /></p>: ''}
             </a>
           </li>
