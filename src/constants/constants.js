@@ -3,6 +3,8 @@ import { RiBarChartFill, RiUserCommunityFill, RiVerifiedBadgeFill } from "@remix
 import logoDark from "/images/primary-logo.webp"
 import logoLight from "/images/secondary-logo.webp"
 import awardRoundedText from "/images/award-rounded-text.svg"
+import marquee1 from "/images/marquee/marquee-1.webp"
+import marquee2 from "/images/marquee/marquee-2.webp"
 
 // videos
 import HeroVid from "/videos/h10-banner-videio.mp4"
@@ -60,4 +62,22 @@ const ourSolutions = [
   }
 ]
 
-export { logoDark, logoLight, awardRoundedText, HeroVid, navItems, ourSolutions }
+const marquee = [
+  {
+    text: "Growth",
+    img: marquee1
+  },
+  {
+    text: "Leadership",
+    img: marquee2
+  },
+  {
+    text: "Enterprise",
+    img: marquee1
+  },{
+    text: "Leadership",
+    img: marquee2
+  }
+]
+
+export { logoDark, logoLight, awardRoundedText, marquee1, HeroVid, navItems, ourSolutions, marquee }

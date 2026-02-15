@@ -6,7 +6,7 @@ import "./solutions.css"
 const Solutions = () => {
   return (
     <section>
-      <div className="container mt-5 pt-4">
+      <div className="container mt-10">
         <SectionHeading 
           subHeading="OUR SOLUTIONS" 
           heading="Tailor Business Solutions for Corporates."  

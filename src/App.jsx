@@ -1,6 +1,7 @@
 import Header from "./components/header/Header"
 import Hero from "./components/main/section-hero/Hero"
 import Solutions from "./components/main/section-solution/Solutions"
+import Marquee from "./components/main/section-marquee/Marquee"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <main>
           <Hero />
           <Solutions />
+          <Marquee />
         </main>
         
       </div>
