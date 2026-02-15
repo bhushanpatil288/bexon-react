@@ -1,0 +1,36 @@
+.client-img-2{
+  transform: translateX(-50px);
+}
+.client-img-3{
+  transform: translateX(-100px);
+}
+
+.more-clients{
+  width: 70px;
+  height: 70px;
+  transform: translateX(-150px);
+  background-color: #288A89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-clients span{
+  color: white;
+  font-size: 28px;
+}
+
+
+.about-border-deco{
+  position: relative;
+}
+.about-border-deco::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  border-radius: 10px;
+  top: -3px;
+  left: 0;
+  background-color: gray;
+}

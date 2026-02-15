@@ -1,4 +1,3 @@
-import "swiper/css"
 import "./marquee.css"
 import { marquee } from "../../../constants/constants"
 
@@ -10,7 +9,7 @@ const Marquee = () => {
           {marquee.map((item, i) => (
             <div className="marquee-item" key={i}>
               <h4>{item.text}</h4>
-              <img src={item.img} alt="marquee" />
+              <img src={item.img} className="rounded-2 overflow-hidden" alt="marquee" />
             </div>
           ))}
         </div>
@@ -20,7 +19,7 @@ const Marquee = () => {
           {marquee.map((item, i) => (
             <div className="marquee-item" key={`dup-${i}`}>
               <h4>{item.text}</h4>
-              <img src={item.img} alt="marquee" />
+              <img src={item.img} className="rounded-2 overflow-hidden" alt="marquee" />
             </div>
           ))}
         </div>

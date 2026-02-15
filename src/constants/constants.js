@@ -5,6 +5,10 @@ import logoLight from "/images/secondary-logo.webp"
 import awardRoundedText from "/images/award-rounded-text.svg"
 import marquee1 from "/images/marquee/marquee-1.webp"
 import marquee2 from "/images/marquee/marquee-2.webp"
+import aboutBanner from "/images/about/h10-about-banner.webp"
+import c1 from "/images/about/client-1.webp"
+import c2 from "/images/about/client-2.webp"
+import c3 from "/images/about/client-3.webp"
 
 // videos
 import HeroVid from "/videos/h10-banner-videio.mp4"
@@ -80,4 +84,6 @@ const marquee = [
   }
 ]
 
-export { logoDark, logoLight, awardRoundedText, marquee1, HeroVid, navItems, ourSolutions, marquee }
+const clients = [ c1, c2, c3]
+
+export { logoDark, logoLight, awardRoundedText, marquee1, aboutBanner, HeroVid, navItems, ourSolutions, marquee, clients }
