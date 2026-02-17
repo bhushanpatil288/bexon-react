@@ -8,7 +8,7 @@ import "./process.css"
 const Process = () => {
 
   return (
-    <section className="rounded-3 px-10 process-section">
+    <section className="rounded-3 px-10 process-section mt-10">
       <div className="container">
         <div className="row gx-5 gy-5 gy-lg-0">
 

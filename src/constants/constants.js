@@ -103,6 +103,8 @@ const processCards = [
   }
 ]
 
+const projectsCategories = ["All", "Branding", "Business", "Designing", "Empower", "Excellence", "Growth"]
+
 const clients = [ c1, c2, c3]
 
-export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards }
+export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards, projectsCategories }

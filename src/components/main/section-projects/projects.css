@@ -1,0 +1,8 @@
+.category{
+  background-color: #D7E4E4;
+}
+.category.active{
+  background-color: #288A89;
+  color: white;
+  font-weight: bold;
+}
