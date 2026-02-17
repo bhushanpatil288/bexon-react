@@ -22,7 +22,7 @@
   line-height: 1;
   font-weight: bolder;
   z-index: 1;
-  color: #288A89;
+  color: #33aaaa;
   background-color: #111d20;
 }
 .process-serial::before{
@@ -59,23 +59,29 @@
 }
 
 
-.service-icon-wrapper{
+.process-icon-wrapper{
   width: 90px;
   height: 90px;
-  background: linear-gradient(-45deg, rgba(30, 138, 138, 0.3) 0%, rgba(30, 138, 138, 0) 50%, rgba(30, 138, 138, 0.3) 100%);
+  background-color: #288A89;
 }
-.service-icon-wrapper{
+.process-icon-wrapper{
   transition: all 0.3s linear;
 }
-.solutions-card:hover .service-icon-wrapper{
+.solutions-card:hover .process-icon-wrapper{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 100%);
     backdrop-filter: blur(15px);
 }
 
-.solutions-card .btn-custom-2{
-  transform: translateX(-70%);
-  transition: all 0.4s linear;
+.process-glow-bg{
+  bottom: -550px;
+  left: 0;
 }
-.solutions-card:hover .btn-custom-2{
-  transform: translateX(-10%);
+
+.sticky-card{
+  transition: opacity 0.1s linear;
+}
+
+
+.sticky-card.is-sticked{
+  opacity: 0.5;
 }

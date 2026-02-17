@@ -1,4 +1,4 @@
-import { RiBarChartFill, RiUserCommunityFill, RiVerifiedBadgeFill } from "@remixicon/react"
+import { RiBarChartFill, RiUserCommunityFill, RiVerifiedBadgeFill, RiStackedChartLine, RiGlobalLine, RiCheckboxCircleLine } from "@remixicon/react"
 // images
 import logoDark from "/images/primary-logo.webp"
 import logoLight from "/images/secondary-logo.webp"
@@ -9,6 +9,7 @@ import aboutBanner from "/images/about/h10-about-banner.webp"
 import c1 from "/images/about/client-1.webp"
 import c2 from "/images/about/client-2.webp"
 import c3 from "/images/about/client-3.webp"
+import processGlow from "/images/h7testi-shape.png"
 
 // videos
 import HeroVid from "/videos/h10-banner-videio.mp4"
@@ -84,6 +85,24 @@ const marquee = [
   }
 ]
 
+const processCards = [
+  {
+    title: "Discoverty & Planning",
+    icon: RiStackedChartLine,
+    des: "he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding ."
+  },
+  {
+    title: "Execution & Delivery",
+    icon: RiGlobalLine,
+    des: "he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding ."
+  },
+  {
+    title: "Review & Support",
+    icon: RiCheckboxCircleLine,
+    des: "he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding your unique business needs, objectives, and our cutomes challenges. he first step in our process is understanding ."
+  }
+]
+
 const clients = [ c1, c2, c3]
 
-export { logoDark, logoLight, awardRoundedText, aboutBanner, HeroVid, navItems, ourSolutions, marquee, clients }
+export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards }

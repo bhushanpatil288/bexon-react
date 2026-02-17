@@ -12,6 +12,7 @@
 body{
   font-family: "Roboto", sans-serif;
   color: #333 !important;
+  /* height: 500vh; */
 }
 
 ::selection{
@@ -97,4 +98,8 @@ body{
 
 .px-10{
   padding: 100px 0;
+}
+
+.top-5{
+  top: 50px;
 }
