@@ -6,3 +6,10 @@
   color: white;
   font-weight: bold;
 }
+
+.projects-img{
+  transition: all 0.2s linear;
+}
+.projectCardContainer:hover img{
+  scale: 1.1;
+}

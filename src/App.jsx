@@ -4,16 +4,16 @@ const App = () => {
   return (
       <div className="bg-custom-main p-3">
 
-        {/* <header className="container-fluid  bg-custom-hero p-3 rounded-3">
+        <header className="container-fluid  bg-custom-hero p-3 rounded-3">
           <Header />
-        </header> */}
+        </header>
 
         <main>
-          {/* <Hero />
+          <Hero />
           <Solutions />
           <Marquee />
           <About />
-          <Process /> */}
+          <Process />
           <Projects />
         </main>
         

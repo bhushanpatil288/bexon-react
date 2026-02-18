@@ -10,6 +10,10 @@ import c1 from "/images/about/client-1.webp"
 import c2 from "/images/about/client-2.webp"
 import c3 from "/images/about/client-3.webp"
 import processGlow from "/images/h7testi-shape.png"
+import project1 from "/images/projects/h6-project-1.webp"
+import project2 from "/images/projects/h6-project-2.webp"
+import project3 from "/images/projects/h6-project-3.webp"
+import project4 from "/images/projects/h6-project-4.webp"
 
 // videos
 import HeroVid from "/videos/h10-banner-videio.mp4"
@@ -105,6 +109,27 @@ const processCards = [
 
 const projectsCategories = ["All", "Branding", "Business", "Designing", "Empower", "Excellence", "Growth"]
 
+const projects = [
+  {
+    title: "Environmental Impact Dashboard",
+    tag: "Business",
+    img: project1
+  },{
+    title: "Rebranding Strategy for a Growing",
+    tag: "Growth",
+    img: project2
+  },{
+    title: "Event Management Platform",
+    tag: "Excellence",
+    img: project3
+  },{
+    title: "Digital Marketing Campaign",
+    tag: "Empower",
+    img: project4
+  },
+]
+
 const clients = [ c1, c2, c3]
 
-export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards, projectsCategories }
+
+export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards, projectsCategories, projects }
