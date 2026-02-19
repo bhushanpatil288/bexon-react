@@ -14,6 +14,9 @@ import project1 from "/images/projects/h6-project-1.webp"
 import project2 from "/images/projects/h6-project-2.webp"
 import project3 from "/images/projects/h6-project-3.webp"
 import project4 from "/images/projects/h6-project-4.webp"
+import footerShape from "/images/h10-footer-shape.png"
+import award1 from "/images/award-logo-white-1.webp"
+import award2 from "/images/award-logo-white-2.webp"
 
 // videos
 import HeroVid from "/videos/h10-banner-videio.mp4"
@@ -131,5 +134,50 @@ const projects = [
 
 const clients = [ c1, c2, c3]
 
+const servicesFooter = [
+  {
+    title: "Customer Experience",
+    url: "#"
+  },{
+    title: "Training Programs",
+    url: "#"
+  },{
+    title: "Business Strategy",
+    url: "#"
+  },{
+    title: "Training Program",
+    url: "#"
+  },{
+    title: "ESG Consulting",
+    url: "#"
+  },{
+    title: "Development Hub",
+    url: "#"
+  },
+]
 
-export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, HeroVid, navItems, ourSolutions, marquee, clients, processCards, projectsCategories, projects }
+const resourcesFooter = [
+  {
+    title: "Contact us",
+    url: "#"
+  },{
+    title: "Team Member",
+    url: "#"
+  },{
+    title: "Recognitions",
+    url: "#"
+  },{
+    title: "Careers",
+    url: "#",
+    badge: true
+  },{
+    title: "News",
+    url: "#"
+  },{
+    title: "Feedback",
+    url: "#"
+  },
+]
+
+
+export { logoDark, logoLight, awardRoundedText, aboutBanner, processGlow, footerShape, award1, award2, HeroVid, navItems, ourSolutions, marquee, clients, processCards, projectsCategories, projects, servicesFooter, resourcesFooter }

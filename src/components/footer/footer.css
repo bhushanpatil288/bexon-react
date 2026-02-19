@@ -1,0 +1,63 @@
+.footer-section{
+  background-color: #111d20 !important;
+}
+
+.bg-shape-widget {
+    position: absolute;
+    bottom: -160px;
+    inset-inline-start: -50px;
+    width: 362px;
+    height: 372px;
+    opacity: 1;
+    filter: blur(110px);
+    z-index: 1;
+    border-radius: 50%;
+    background: #1e8a8a;
+}
+
+.z-5{
+  z-index: 5 !important;
+}
+
+.footer-img{
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.footer-badge{
+  position: relative;
+}
+.footer-badge::before{
+  content: "NEW";
+  position: absolute;
+  background-color: gray;
+  color: white;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 2px 5px;
+  right: -40px;
+  top: 0px;
+}
+
+
+.newsLetterBg{
+  background-color: #1e8a8a38;
+  padding: 40px 30px 40px 60px
+}
+
+.newsLetterBg input{
+  background-color: #3b4c4f;  
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.newsLetterBg input::placeholder{
+  color: rgb(174, 174, 174);
+}
+
+.input-wrapper{
+  background-color: #3b4c4f;
+}

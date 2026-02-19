@@ -5,5 +5,6 @@ import Marquee from "./main/section-marquee/Marquee"
 import About from "./main/section-about/About"
 import Process from "./main/section-process/Process"
 import Projects from "./main/section-projects/Projects"
+import Footer from "./footer/Footer"
 
-export { Header, Hero, Solutions, Marquee, About, Process, Projects }
+export { Header, Hero, Solutions, Marquee, About, Process, Projects, Footer }
