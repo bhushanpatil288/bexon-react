@@ -8,23 +8,23 @@ const FooterNav = () => {
       <div>
         <img className="footer-img" src={footerShape} alt="" />
       </div>
-      <div className="row">
+      <div className="row gy-4 gy-md-0">
 
-        <div className="col-4">
+        <div className="col-md-4">
           <div className="d-flex flex-column gap-3">
             <h4>Services</h4>
             <PrintList data={servicesFooter} />
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-md-4">
           <div className="d-flex flex-column gap-3">
             <h4>Resources</h4>
             <PrintList data={resourcesFooter}/>
           </div>
         </div>
 
-        <div className="col-4 z-5">
+        <div className="col-md-4 z-5">
           <div>
             <h4>Our Offices</h4>
             <p className="text-gray">993 Renner Burg, West Rond, MT 94251-030, USA.</p>

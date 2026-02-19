@@ -44,7 +44,7 @@
 
 .newsLetterBg{
   background-color: #1e8a8a38;
-  padding: 40px 30px 40px 60px
+  padding: 40px 40px 40px 40px
 }
 
 .newsLetterBg input{
@@ -60,4 +60,10 @@
 
 .input-wrapper{
   background-color: #3b4c4f;
+}
+
+@media (max-width: 580px) {
+  .newsLetterBg input::placeholder{
+    text-align: center;
+  }
 }
